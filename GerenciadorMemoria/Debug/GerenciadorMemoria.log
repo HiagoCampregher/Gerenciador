@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\format(43): warning STL4038: The contents of <format> are available only with C++20 or later.
+C:\Users\hiago.campregher\Downloads\GerenciadorMemoria\GerenciadorMemoria\Controle.cpp(129,75): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'unsigned int' can equal the given constant
+C:\Users\hiago.campregher\Downloads\GerenciadorMemoria\GerenciadorMemoria\Controle.cpp(277,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\hiago.campregher\Downloads\GerenciadorMemoria\GerenciadorMemoria\Controle.cpp(310,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
