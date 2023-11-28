@@ -254,7 +254,10 @@ void CControle::GetTempoProcessandoMiliSegundos(int idProcesso)
 
     DWORDLONG startTime = creationTime.dwLowDateTime + creationTime.dwHighDateTime;
     DWORDLONG endTime = exitTime.dwLowDateTime + exitTime.dwHighDateTime;
-    DWORDLONG totalTime = endTime - startTime;
+    
+    DWORDLONG totalTime = startTime;
+    if (endTime != 0)
+        totalTime = endTime - startTime;
 
     m_TempoExecutandoMiliSegundos = totalTime / 1000;
 }

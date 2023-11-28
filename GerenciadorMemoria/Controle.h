@@ -32,7 +32,7 @@ public:
 
     std::map<ULONG, REG_INFO_PROCESSO> m_mapInfoProcessos;
     std::pair<SIZE_T, SIZE_T> m_pairWorkingSet;
-    DWORDLONG m_TempoExecutandoMiliSegundos;
+    DWORDLONG m_TempoExecutandoMiliSegundos = 0;
 
     float GetDiscoDisponivel();
     float GetDiscoTotal();
