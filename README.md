@@ -6,4 +6,5 @@ Passo 2: Modificar o visual studio com o arquivo de importação que está no gi
 <br/> 
 Passo 3: Na pasta debug possui um arquivo Gerenciador.exe que é possível rodar quando houver as dll's intaladas.
 <br/> 
+<br/> 
 Observação: Para conseguir compilar, deve-se ir no projeto > properties > Configuration properties > Charactet Set e alterar para a opção de "Not Set".
